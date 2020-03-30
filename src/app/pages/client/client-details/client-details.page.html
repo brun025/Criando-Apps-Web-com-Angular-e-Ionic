@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+
+<ion-content padding *ngIf="!client">
+  <app-loading></app-loading>
+</ion-content>
+
+<ion-content padding *ngIf="client">
+  <ion-list lines="none">
+    <ion-item>
+      <ion-label>
+        <small>Código</small><br>
+        <strong>{{ client.id }}</strong>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <small>Nome</small><br>
+        <strong>{{ client.name }}</strong>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <hr>
+
+  <p class="text-right">
+    <ion-button color="secondary" (click)="back()">Voltar</ion-button>
+  </p>
+</ion-content>

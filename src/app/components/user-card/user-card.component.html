@@ -1,0 +1,11 @@
+<div class="ion-padding custom-skeleton" *ngIf="!user">
+  <app-loading></app-loading>
+</div>
+
+<p class="text-center" *ngIf="user">
+  <ion-avatar class="avatar">
+    <img src="{{ user.image }}" alt="{{ user.name }}">
+  </ion-avatar><br>
+  <small>{{ user.name }}</small><br>
+  <ion-button color="primary" size="small" (click)="logout()">Sair</ion-button>
+</p>
