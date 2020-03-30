@@ -1,17 +1,3 @@
-# weather
-
-Maintainer: Bruno Felipe -- https://github.com/brun025
-
-Projeto Weather, consultar clima de cidades em tempo real.
-APIs em node, usando mysql como banco de dados e nestjs como framework.
-
-Clone o repositório
-Rode "rm -rf .git" para remover as configurações do git
-Dentro da pasta src, edite o arquivo app.module.ts e configure seu banco como desejar
-Rode npm install
-Depois npm run start:dev
-Abra o navegador em http://localhost:3000
-Digite o nome da cidade e clique enter para ver o clima dessa cidade
 # Criando Apps Web com Angular e Ionic
 
 Autor: Bruno Felipe -- https://github.com/brun025
@@ -29,9 +15,9 @@ Utilizando mockoon para consumo das APIs e simulação de servidor.
     <li>Chart.js</li>
 </ul>
 
-Clone o repositório
-Rode "rm -rf .git" para remover as configurações do git
-Entre na pasta api, importe o arquivo server.json para o mockoon e inicie o servidor
-No diretório raiz do projeto rode o comando npm install
-Depois de instalado todas as dependências
+Clone o repositório<br/>
+Rode "rm -rf .git" para remover as configurações do git<br/>
+Entre na pasta api, importe o arquivo server.json para o mockoon e inicie o servidor<br/>
+No diretório raiz do projeto rode o comando npm install<br/>
+Depois de instalado todas as dependências<br/>
 Rode o camando ionic serve
